@@ -1,0 +1,26 @@
+{
+  "name": "@ionic-native/firebase-storage",
+  "version": "1.0.0",
+  "description": "npm package for firebase storage",
+  "module": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azharjaliawala/firebase-storage.git"
+  },
+  "author": "Azhar Asif Jaliawala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azharjaliawala/firebase-storage/issues"
+  },
+  "homepage": "https://github.com/azharjaliawala/firebase-storage#readme",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "typings": "index.d.ts",
+  "dependencies": {
+    "@types/cordova": "latest"
+  },
+  "peerDependencies": {
+    "rxjs": "^6.5.0",
+    "@ionic-native/core": "^5.1.0"
+  }
+}

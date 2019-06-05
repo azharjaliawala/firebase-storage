@@ -5,5 +5,5 @@ import { IonicNativePlugin } from '@ionic-native/core';
  * Cordova plugin for Firebase Storage
  */
 export declare class FirebaseStorage extends IonicNativePlugin {
-    uploadPicture(picUrl: string, picName: string): Promise<any>;
+    uploadPicture(fileUri: string, filePath: string): Promise<any>;
 }

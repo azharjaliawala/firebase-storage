@@ -17,7 +17,7 @@ var FirebaseStorageOriginal = /** @class */ (function (_super) {
     function FirebaseStorageOriginal() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    FirebaseStorageOriginal.prototype.uploadPicture = function (picUrl, picName) { return cordova(this, "uploadPicture", { "sync": true }, arguments); };
+    FirebaseStorageOriginal.prototype.uploadPicture = function (fileUri, filePath) { return cordova(this, "uploadPicture", { "sync": true }, arguments); };
     FirebaseStorageOriginal.pluginName = "FirebaseStorage";
     FirebaseStorageOriginal.plugin = "cordova-plugin-firebase-storage";
     FirebaseStorageOriginal.pluginRef = "cordova.plugins.firebase.storage";
